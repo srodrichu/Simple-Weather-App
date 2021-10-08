@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.app {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-size: cover;
+    background: radial-gradient(31.25% 57.33% at 66.39% 66.46%, rgba(169, 169, 169, 0.2) 0%, rgba(255, 255, 255, 0.2) 100%), radial-gradient(74.8% 74.8% at 36.74% 29.69%, #6DDEB5 0%, #6FE6BB 50.04%, rgba(255, 255, 255, 0) 100%);
+}

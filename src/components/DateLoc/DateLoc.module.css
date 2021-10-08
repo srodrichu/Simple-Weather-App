@@ -1,0 +1,61 @@
+.dateLoc {
+    width: 480.55px;
+    height: 100%;
+}
+
+.h2 {
+    width: 397.66px;
+    height: 104.82px;
+    font-family: Epilogue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 100px;
+    line-height: 102px;
+    padding-bottom: 1.16rem;
+    color: #FFFFFF;
+    background: none;
+    border: none;
+
+}
+
+.h2::placeholder{
+    color: white;
+}
+
+.h2:focus {
+    outline: none;
+}
+
+.dateLoc h3 {
+    width: 480.55px;
+    height: 34.94px;
+    font-family: Epilogue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32.77px;
+    line-height: 34px;
+
+    color: #FFFFFF;
+}
+
+.resultList {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    width: 50%;
+    font-size: 32.77px;
+    height: 300px;
+    overflow: hidden;
+    overflow-y: scroll;
+    border-top: solid grey;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.resultsButton {
+
+    font-size: 20.77px;
+    height: 50px;
+    background-color: rgb(189, 189, 189);
+    color: white;
+}
