@@ -23,6 +23,10 @@ h1 {
 
 }
 
+input {
+    width: 100%;
+}
+
 .details h3 {
     font-family: Epilogue;
     font-style: normal;

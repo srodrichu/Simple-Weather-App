@@ -1,7 +1,7 @@
 import React from 'react'
 import classes from './Details.module.css'
 
-export default function Details() {
+export default function Details(props) {
     return (
         <div className={classes.container}>
             <h1>Details</h1>
@@ -14,10 +14,10 @@ export default function Details() {
                     
                 </div>
                 <div className={classes.detailOut}>
-                    <h3>12%</h3>
-                    <h3>78%</h3>
-                    <h3>1km/h</h3>
-                    <h3>10mm</h3>
+                    <h3>{props.cloudy}%</h3>
+                    <h3>{props.humidity}%</h3>
+                    <h3>{props.wind}km/h</h3>
+                    <h3>{props.rain}mm</h3>
                 </div>
             </div>
         </div>
